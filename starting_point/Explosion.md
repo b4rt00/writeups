@@ -30,7 +30,7 @@ $ xfreerdp /u:Administrator /p:"" /v:$ip
 Do you trust the above certificate? (Y/T/N) Y
 ```
 Turns out the RDP service does not require a password to connect to the system using the `Administrator` account. A windows with a remote GUI session to the target system is displayed by `xfreerdp`. The flag file is on the Desktop.
-![[Pasted image 20230502224135.png]]
+![](images/explosion-rdp.png)
 
 ## Summary
 Explosion is a simple machine which shows how inproperly secured Remote Desktop Protocol service running on a Windows system can give an attacker easy access to the machine. 
